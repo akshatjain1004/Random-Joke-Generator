@@ -34,6 +34,7 @@ body {
   max-width: 100%;
   width: 700px;
   text-align: center;
+  padding: auto;
 }
 
 h3 {
@@ -41,6 +42,9 @@ h3 {
   letter-spacing: 4px;
   opacity: 5;
 
+}
+.joke{
+  padding-bottom: 20px;
 }
 
 /*.joke 
@@ -63,11 +67,21 @@ h3 {
 }
 */
 .btn {
-  background-color: #9f68e0;
-  border: 0;
-  border-radius: 10px;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  width: 250px;
+  font-size: 35px;
+  /* font-family: poppins; */
+  /* font-weight: 400; */
+  /* background-color: #9f68e0; */
+  font-weight: bold;
+  /* border: 5px solid #a3d279; */
+  border-radius: 100px;
+  text-transform: uppercase;
+  transition: 1.5s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0, 0.1);
-  color: #fff;
+  color: #a3d279;
   cursor: pointer;
   /* cursor will change */
   font-size: 16px;
@@ -75,7 +89,9 @@ h3 {
 }
 .btn:hover
 {
-  background-color: #a3d279;
+  box-shadow: 0 5px 50px 0 #9f68e0 inset, 0 5px 50px 0 #9f68e0;
+                                          
+  background-color: #b4b2b8;
   font-weight: bold;
   color: black;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0, 0.1);
